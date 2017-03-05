@@ -2,9 +2,8 @@
 library(dplyr)
 library("reshape2")
 
-# download zip file containing data if it hasn't already been downloaded
 
-#download zip file if it hasn't been dowloaded and unzip the file id the directory doesn't already exsist
+#download zip file if it hasn't been dowloaded and unzip the file if the directory doesn't already exsist
 zipUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 zipFile <- "UCI HAR Dataset.zip"
 dataPath <- "UCI HAR Dataset"
