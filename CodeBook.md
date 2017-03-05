@@ -5,10 +5,10 @@ This code book is a code book that modifies and updates the available codebooks 
 
 ##variables
 
-*subject: 
+* subject: 
 integer, range from 1 to 30
 
-*activity:
+* activity:
 6 possible values include:
 WALKING
 WALKING_UPSTAIRS
@@ -17,19 +17,19 @@ SITTING
 STANDING
 LAYING
 
-*features:
+* features:
 which is not shown directly in the file, but we use it to correct the column names in the dataset.
 
-*averages_data:
+* averages_data:
 include two kinds of domains:
 timeDomain
 frequencyDomain
 
-*two kinds of components:
+* two kinds of components:
 Accelerometer
 Gyroscope
 
-*And some metrics include:
+* And some metrics include:
 Mean
 StandardDeviation
 Frequency
