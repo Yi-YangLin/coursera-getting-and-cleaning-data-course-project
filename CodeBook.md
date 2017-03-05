@@ -10,29 +10,29 @@ integer, range from 1 to 30
 
 * activity:
 6 possible values include:
-`WALKING`
-`WALKING_UPSTAIRS`
-`WALKING_DOWNSTAIRS`
-`SITTING`
-`STANDING`
-`LAYING`
+* `WALKING`
+* `WALKING_UPSTAIRS`
+* `WALKING_DOWNSTAIRS`
+* `SITTING`
+* `STANDING`
+* `LAYING`
 
 * features:
 which is not shown directly in the file, but we use it to correct the column names in the dataset.
 
 * averages_data:
 include two kinds of domains:
-`timeDomain`
-`frequencyDomain`
+* `timeDomain`
+* `frequencyDomain`
 
 * two kinds of components:
-`Accelerometer`
-`Gyroscope`
+* `Accelerometer`
+* `Gyroscope`
 
 * And some metrics include:
-`Mean`
-`StandardDeviation`
-`Frequency`
+* `Mean`
+* `StandardDeviation`
+* `Frequency`
 
 For example, 
 `fBodyGyroscopeStandardDeviationX` means standard deviation of the frequency domain Gyroscope body velocity in X direction.
